@@ -49,7 +49,7 @@
 .logo-image {
     height: 22px;
     width: auto;
-    margin: 14px 16px;
+    margin: 14px 160px 14px 0px;
 }
 
 .narbar-button {
@@ -69,7 +69,7 @@
 
 .section1 {
     background-image:url("media/Hero-image1.jpg");
-    height: 69.5rem;
+    height: 685px;
     width: auto;
     background-position: center;
     background-repeat: no-repeat;
