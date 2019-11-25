@@ -1,0 +1,97 @@
+/* Footer Anna's part */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.page_footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 30px 0;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footer__action {
+    width: 40%;
+}
+
+.footer__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #a3a5a7;
+    font-size: 13px;
+    line-height: 27px;
+}
+
+.footer__link:hover {
+    color: black;
+}
+
+.footer__main-link {
+    color: black;
+}
+
+.footer__main-item {
+    margin-bottom: 8px;
+}
+
+.form__text {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.form__group {
+    position: relative;
+}
+
+.form__label {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.form__control {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #dfe0e1;
+    padding-bottom: 4px;
+    font-size: 16px;
+    font-family: inherit;
+    outline: none;
+}
+
+.form__svg {
+    position: absolute;
+    display: inline-block;
+    width: 24px;
+    height: 16px;
+    right: 1px;
+    bottom: 6px;
+    margin: 0;
+    cursor: pointer;
+    color: #dfe0e1;
+}
+
+.form__svg path {
+    fill: #808284;
+}
