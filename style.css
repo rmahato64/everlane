@@ -1,13 +1,15 @@
 /* Helmi Menu section 1-2 */
 * {
     font-family: graphik,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
 .navigation-bar {
     display: flex;
     justify-content: space-between;
     top: 45px; 
-    height: 50px; 
+    height: 45px; 
     background-color: white;
     color: rgb(255, 255, 255); 
     stroke: rgb(255, 255, 255); 
@@ -16,7 +18,17 @@
 
 .navbar-right {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+}
+
+.navbar-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mainlogo {
+    display: flex;
+    justify-content: center;
 }
 
 .menu-list {
@@ -49,7 +61,7 @@
 .logo-image {
     height: 22px;
     width: auto;
-    margin: 14px 160px 14px 0px;
+    margin: 14px 16px;
 }
 
 .narbar-button {
@@ -64,12 +76,17 @@
     height: 35px;
     width: auto;
     background-color: white;
-    padding: 5px 5px 10px 5px;
+    padding: 5px;
 }
+
+.navbar-right, .navbar-left, .mainlogo {
+    width: 33%;
+}
+
 
 .section1 {
     background-image:url("media/Hero-image1.jpg");
-    height: 685px;
+    height: 695px;
     width: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -77,6 +94,7 @@
     position: relative;
     margin: 0px;
     padding: 0;
+    
 }
 
 .hero-text {
@@ -99,6 +117,18 @@
 h1.title {
     font-size: 80px;
     margin: 0px;
+}
+
+.tagline {
+    margin: 25px 0px 30px;
+}
+
+.note {
+    position: absolute;
+    bottom: 25px;
+    left: 40px;
+    font-size: 13px;
+    color: rgb(76, 76, 75);;
 }
 
 .section2 {
